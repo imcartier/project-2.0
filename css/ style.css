@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+#contact a {
+    display: inline-block;
+    margin: 10px;
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.projects-container {
+    width: 80%;
+    margin: 0 auto;         
+    overflow-x: auto;
+}
+
+.projects-scroll {
+    display: flex;
+    gap: 1rem;
+    padding: 10px 0;
+    justify-content: center; 
+}
+
+.project-card {
+    flex: 0 0 25%;          
+    min-width: 180px;
+    max-width: 240px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+body.dark {
+    background-color: #111;
+    color: white;
+}
+
+body.dark nav {
+    background-color: #000;
+}
+
+body.dark .project-card {
+    background-color: #222;
+    color: white;
+}

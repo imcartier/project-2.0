@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <button id="modeBtn">Toggle Dark Mode</button>
+
+        <h1>Cartier</h1>
+        <img src="Screenshot 2026-06-25 233610.png" alt="My Photo">
+        <p>Hello, my name is Cartier. I enjoy challenging myself by learning new skills and exploring my areas of interest.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+            <div class="projects-scroll">
+
+                <div class="project-card">
+                    <img src="Screenshot 2026-07-05 023335.png" alt="Reminder app">
+                    <p><a href="https://remindly-blue.vercel.app/">Reminder app (takes a minute to load)</a></p>
+                </div>
+
+                <div class="project-card">
+                    <img src="Screenshot 2026-07-05 023409.png" alt="Tic Tac Toe">
+                    <p><a href="https://codehs.com/share/id/tic-tac-toe-game-part-2-FMlv8t/run">Tic Tac Toe</a></p>
+                </div>
+
+                <div class="project-card">
+                    <img src="Screenshot 2026-07-05 023504.png" alt="Karel project">
+                    <p><a href="https://codehs.com/share/id/create-your-ultrakarel-image-udCUfg/run">1000+ lines of code</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <a href="mailto:cmedina@codedbykids.com">Email</a>
+        <a href="https://github.com/cmedinaCodedKids?tab=repositories">GitHub</a>
+    </section>
+
+    <script>
+        const btn = document.getElementById("modeBtn");
+
+        btn.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+        });
+    </script>
+
+</body>
+</html>
